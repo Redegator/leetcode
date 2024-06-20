@@ -1,14 +1,10 @@
-
-
 def equalFrequency(word: str) -> bool:
-
 
     letter_list = list(set([letter for letter in word]))
 
     counted_letter = []
     for unique_letter in letter_list:
         counted_letter.append(word.count(unique_letter))
-
 
     res = False
     for i in range(len(counted_letter)):

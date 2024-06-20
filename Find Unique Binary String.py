@@ -1,5 +1,3 @@
-from bioinformatics_2.functions import *
-
 def findDifferentBinaryString(nums) -> str:
 
     n = len(nums[0])
